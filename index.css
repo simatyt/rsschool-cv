@@ -1,0 +1,131 @@
+html {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+body {
+  background-color: rgb(5, 67, 84);
+  background-size: 12px 12px;
+  background-image:
+    radial-gradient(circle at 50% 50%, #ddd, #ddd 1px, transparent 1px),
+    radial-gradient(circle at 0 0, #ddd, #ddd 1px, transparent 1px),
+    radial-gradient(circle at 0 100%, #ddd, #ddd 1px, transparent 1px),
+    radial-gradient(circle at 100% 0, #ddd, #ddd 1px, transparent 1px),
+    radial-gradient(circle at 100% 100%, #ddd, #ddd 1px, transparent 1px);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+ul {
+  list-style-type: hebrew;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  max-width: 800px;
+  min-width: 450px;
+  margin: 6vh auto 6vh auto;
+  padding: 66px;
+  background-color: white;
+  border-radius: 0 40px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, .5);
+}
+
+.block {
+  margin-top: 3.7rem;
+}
+
+.header-block h1 {
+  margin-top: 0;
+  font-size: 3.6rem;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 0px 0px 4px rgba(51, 51, 51, .85);
+}
+
+.block-name {
+  margin-bottom: 1.3rem;
+  padding-left: 1rem;
+  padding-top: .2rem;
+  padding-bottom: .2rem;
+  text-align: left;
+  text-transform: uppercase;
+  color: #FFF;
+  box-shadow: 0px 0px 1px grey;
+  text-shadow: 1px 1px 12px grey;
+  background-size: 8px 1px;
+  background-image:
+    radial-gradient(circle at 50% 50%, #ddd, #ddd 1px, transparent 1px),
+    radial-gradient(circle at 0 0, #ddd, #ddd 1px, transparent 1px),
+    radial-gradient(circle at 0 100%, #ddd, #ddd 1px, transparent 1px),
+    radial-gradient(circle at 100% 0, #ddd, #ddd 1px, transparent 1px),
+    radial-gradient(circle at 100% 100%, #ddd, #ddd 1px, transparent 1px);
+}
+
+.quote {
+  margin: 0;
+  padding: .8rem 0 1rem 1rem;
+  background: rgba(34, 193, 195, 0.1);
+  border-radius: 9px;
+  box-shadow: 0px 0px 5px 3px rgba(34, 193, 195, 0.1);
+}
+
+.quote p {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+table {
+  border-spacing: 5px 8px;
+}
+
+thead {
+  text-transform: uppercase;
+}
+
+td {
+  padding: .7rem;
+  text-align: center;
+  box-shadow: 1px 1px 3px grey;
+}
+
+section.face {
+  position: relative;
+}
+
+.face-img {
+  position: absolute;
+  top: -26px;
+  right: 24px;
+  width: 150px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 3px grey;
+  transform: rotate(7deg);
+}
+
+
+@media(max-width: 820px) {
+  .face-img {
+    display: none;
+  }
+}
+
+.min-width-6rem {
+  display: inline-block;
+  min-width: 6rem;
+}
+
+.min-width-12rem {
+  display: inline-block;
+  min-width: 12rem;
+}
+
+address>ul {
+  line-height: 1.6rem;
+}
